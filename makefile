@@ -1,7 +1,7 @@
 
 all:
 	$(MAKE) -C libc
-#	$(MAKE) -C kernel
+	$(MAKE) -C kernel
 #	$(MAKE) -C user
 
 #clean:
