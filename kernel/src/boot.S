@@ -44,6 +44,10 @@ call edx
 	mov esp, OFFSET stack_top
 	mov ebp, esp
 
+/* push eax (m_boot magic no.) and ebx (m_boot header) to kernel main */ 
+/*	push eax */
+/*	push ebx */
+
 /* call main function */
 .extern main
 call main
